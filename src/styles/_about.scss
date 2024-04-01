@@ -3,7 +3,7 @@
   
   width: 90%;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1000px;
   @media only screen and (min-width: $cut) {
     width: 80%;
   }
@@ -21,8 +21,16 @@
   }
 }
 
-.user:nth-child(2) {
-  flex-basis: 60%;
+.tech:nth-child(1) {
+  flex-basis: 30%;
+}
+
+.tech:nth-child(2) {
+  flex-basis: 40%;
+}
+
+.tech:nth-child(3) {
+  flex-basis: 30%;
 }
 
 .user {
