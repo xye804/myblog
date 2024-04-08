@@ -1,0 +1,42 @@
+#project {
+  font-size: 120%;
+
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1000px;
+
+  @media only screen and (min-width: $cut) {
+    width: 80%;
+  }
+}
+
+.title {
+  text-align: center;
+  margin: 5px auto;
+
+  h1 {
+    font-weight: 400;
+  }
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto
+}
+
+.project {
+  padding: 0 20px;
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    padding: 0;
+  }
+
+  span {
+    float: right;
+  }
+
+}
